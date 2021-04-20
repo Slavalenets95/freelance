@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo header__logo">
+            <p class="logo__txt">Micrus(C)</p>
+            <ul class="logo__list">
+                <li class="logo__list-item"><a href="tel:+777777777">+77-777-77-77</a></li>
+                <li class="logo__list-item"><a href="tel:+777777777">+77-777-77-77</a></li>
+            </ul>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="#">магазин</a></li>
+                <li class="nav__list-item"><a href="#">компания</a></li>
+                <li class="nav__list-item"><a href="#">блог</a></li>
+            </ul>
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="#">регистрация</a></li>
+                <li class="nav__list-item"><a href="#">вход</a></li>
+                <li class="nav__list-item"><a href="#">корзина</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main class="main">
+        <section class="search-section">
+            <div class="breadcrumbs">
+                Тут будет breadcrumbs
+            </div>
+            <div class="search">
+                <input type="search" class="search__input" placeholder="Поиск товаров">
+                <div class="search-menu">
+                    <div class="search__tabs tabs">
+                        <ul class="tabs__list">
+                            <li class="tabs__list-item">Каталог</li>
+                        </ul>
+                    </div>
+                    <ul class="search__list">
+                        <li class="search__list-item" data-searchType="1">
+                            <p class="search__list-title">товарные группы</p>
+                        </li>
+                        <li class="search__list-item" data-searchType="2">
+                            <p class="search__list-title">популярные запросы</p>
+                        </li>
+                        <li class="search__list-item" data-searchType="3">
+                            <p class="search__list-title">товары со склада</p>
+                        </li>
+                        <li class="search__list-item" data-searchType="4">
+                            <p class="search__list-title">товары под заказ</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo search-section__logo">
+                <p class="logo__txt">Micrus(C)</p>
+                <ul class="logo__list">
+                    <li class="logo__list-item"><a href="tel:+777777777">+77-777-77-77</a></li>
+                    <li class="logo__list-item"><a href="tel:+777777777">+77-777-77-77</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="shop-section">
+            <header class="shop-section__header">
+                <nav class="category">
+                    <ul class="category__list">
+                        <li class="category__list-item"><a href="#">Микросхемы</a></li>
+                        <li class="category__list-item"><a href="#">Диоды, тиристоры, симисторы</a></li>
+                        <li class="category__list-item"><a href="#">Транзисторы</a></li>
+                        <li class="category__list-item"><a href="#">Конденсаторы</a></li>
+                        <li class="category__list-item"><a href="#">Соединители, разьёмы, переходники</a></li>
+                        <li class="category__list-item"><a href="#">Защита электропитания и охлаждение</a></li>
+                        <li class="category__list-item"><a href="#">Кнопки и Переключатели</a></li>
+                        <li class="category__list-item"><a href="#">Реле ,Контакторы, герконы, магниты,муфты</a></li>
+                        <li class="category__list-item"><a href="#">Пайка, сварка, инструмент,метизы</a></li>
+                        <li class="category__list-item"><a href="#">Освещение, индикация, LED,лампы</a></li>
+                        <li class="category__list-item"><a href="#">Робототехника, привод, механика</a></li>
+                        <li class="category__list-item"><a href="#">Компонеты - Акустика, звук, ВЧ, НЧ</a></li>
+                        <li class="category__list-item"><a href="#">Компоненты для разработки и моделирован.</a></li>
+                        <li class="category__list-item"><a href="#">Приборы, диагностика</a></li>
+                        <li class="category__list-item"><a href="#">Источники питания</a></li>
+                        <li class="category__list-item"><a href="#">Автоматизация процессов</a></li>
+                        <li class="category__list-item"><a href="#">ДОМ,ДАЧА,приусадебный участок</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="products">
+                <div class="slider-section">
+                    <div class="slider-preview">
+                        <p class="slider-title">Популярные товары</p>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper-slide__link">
+                                    <img src="./img/slider-2.jpg" alt="" class="slider-image">
+                                    <p class="slide-title">MNR34J5ABJ103</p>
+                                    <p class="slide-txt">Lorem ipsum dolor lorem ipsum</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper-slide__link">
+                                <img src="./img/slider-3.jpg" alt="" class="slider-image">
+                                <p class="slide-title">CDRH5D28NP-100NC</p>
+                                <p class="slide-txt">Lorem ipsum dolor lorem ipsum</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper-slide__link">
+                                <img src="./img/slider-4.jpg" alt="" class="slider-image">
+                                <p class="slide-title">2N7002 транзистор, 0,3A</p>
+                                <p class="slide-txt">Lorem ipsum dolor lorem ipsum</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper-slide__link">
+                                <img src="./img/slider-5.jpg" alt="" class="slider-image">
+                                <p class="slide-title">CDRH5D28NP-100NC</p>
+                                <p class="slide-txt">Lorem ipsum dolor lorem ipsum</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper-slide__link">
+                                <img src="./img/slider-6.jpg" alt="" class="slider-image">
+                                <p class="slide-title">CDRH5D28NP-100NC</p>
+                                <p class="slide-txt">Lorem ipsum dolor lorem ipsum</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="swiper-slide__link">
+                                <img src="./img/slider-1.jpg" alt="" class="slider-image">
+                                <p class="slide-title">CDRH5D28NP-100NC</p>
+                                <p class="slide-txt">Lorem ipsum dolor lorem ipsum</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card1.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card2.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card3.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card4.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card5.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card6.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card7.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card8.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card9.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card10.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card11.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="card__link">
+                            <p class="card__title">Название товара</p>
+                            <img src="./img/card-image/card12.png" alt="card-image" class="card__image">
+                            <div class="card__info">
+                                <p class="card__sale">23 продано</p>
+                                <p class="card__amount">17 штк осталось</p>
+                            </div>
+                        </a>
+                        <p class="card__discount">-40%</p>
+                        <div class="card__price-block">
+                            <span class="card__old-price">23.30р.</span>
+                            <span class="card__new-price">19.07р.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__list-item">Lorem ipsum dolor sit amet</li>
+            <li class="footer__list-item">Lorem ipsum dolor sit amet</li>
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__list-item"><a href="mailto:loremipsum@email.com">LoremIpsum@mail.ru</a></li>
+            <li class="footer__list-item"><a href="mailto:loremipsum@email.com">LoremIpsum@mail.ru</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/search-script.js"></script>
+
+</body>
+
+</html>
